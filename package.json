@@ -4,7 +4,7 @@
   "description": "A basic electron demo",
   "main": "electron/main.js",
   "scripts": {
-    "start": "",
+    "start": "webpack && electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack"
   },
@@ -15,6 +15,9 @@
     "@babel/preset-react": "^7.25.9",
     "@electron/packager": "^18.3.5",
     "babel-loader": "^9.2.1",
+    "electron": "^33.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "terser-webpack-plugin": "^5.3.10",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
