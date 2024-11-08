@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack && electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "package": "webpack && npx electron-packager ."
   },
   "author": "Austin Willoughby",
   "license": "UNLICENSED",
